@@ -1,10 +1,11 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
 int main() {
 	int n;
 	int* x;
 
-	scanf_s("%d", &n);
+	scanf("%d", &n);
 	x = calloc(sizeof(int),n);
 
 	for (int i = 0; i < n; i++) {
